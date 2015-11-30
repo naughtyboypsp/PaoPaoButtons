@@ -15,6 +15,7 @@
 		C2DF08661C06CF6E00DC8D0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2DF08641C06CF6E00DC8D0C /* LaunchScreen.storyboard */; };
 		C2DF08711C06CF6F00DC8D0C /* __button____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF08701C06CF6F00DC8D0C /* __button____Tests.m */; };
 		C2DF087C1C06CF6F00DC8D0C /* __button____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF087B1C06CF6F00DC8D0C /* __button____UITests.m */; };
+		C2DF088B1C06DAAA00DC8D0C /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C2DF088A1C06DAAA00DC8D0C /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C2DF08771C06CF6F00DC8D0C /* 平安button(代码)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "平安button(代码)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2DF087B1C06CF6F00DC8D0C /* __button____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "__button____UITests.m"; sourceTree = "<group>"; };
 		C2DF087D1C06CF6F00DC8D0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2DF08891C06DAAA00DC8D0C /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C2DF088A1C06DAAA00DC8D0C /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		C2DF08551C06CF6E00DC8D0C /* 平安button(代码) */ = {
 			isa = PBXGroup;
 			children = (
+				C2DF08891C06DAAA00DC8D0C /* UIView+Extension.h */,
+				C2DF088A1C06DAAA00DC8D0C /* UIView+Extension.m */,
 				C2DF08591C06CF6E00DC8D0C /* AppDelegate.h */,
 				C2DF085A1C06CF6E00DC8D0C /* AppDelegate.m */,
 				C2DF085C1C06CF6E00DC8D0C /* ViewController.h */,
@@ -272,6 +277,7 @@
 			files = (
 				C2DF085E1C06CF6E00DC8D0C /* ViewController.m in Sources */,
 				C2DF085B1C06CF6E00DC8D0C /* AppDelegate.m in Sources */,
+				C2DF088B1C06DAAA00DC8D0C /* UIView+Extension.m in Sources */,
 				C2DF08581C06CF6E00DC8D0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
